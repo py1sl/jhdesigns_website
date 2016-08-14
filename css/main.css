@@ -53,7 +53,7 @@ nav
 {
 font-size:1.5em;
 font-family:Arial, Helvetica, sans-serif;
-background-color:#338000;
+background-color:#FFFFFF;
 margin:0;
 padding-top:10px;
 padding-bottom:10px;
@@ -80,7 +80,7 @@ nav ul
 nav a
 {
 text-decoration:none;
-color:white;
+color:black;
 }
 
 nav a:hover
@@ -155,48 +155,6 @@ font-family:'Lobster',Arial, Helvetica, sans-serif;
 padding:4px;
 }
 
-#product_grid
-{
-background-color:#FFFFFF;
-margin-left:10px;
-margin-bottom:5px;
-margin-right:10px;
-margin-top:25px;
-padding:0;
-font-size:1.2em;
-font-family:Arial, Helvetica, sans-serif;
-display:grid;
-grid-column-definition: auto auto;
-grid-row-definition: auto auto auto;
-}
-
-#product_grid h2
-{
-color:#ff2a7f;
-font-family:'Lobster',Arial, Helvetica, sans-serif;
-padding:4px;
-grid-column-position: 1; 
-grid-row-position: 1; 
-}
-
-#product_kindle
-{
-grid-column-position: 1; 
-grid-row-position: 2; 
-}
-
-#product_hankie
-{
-grid-column-position: 2; 
-grid-row-position: 2; 
-}
-
-
-#product_scarves
-{
-grid-column-position: 1; 
-grid-row-position: 3; 
-}
 
 section
 {
