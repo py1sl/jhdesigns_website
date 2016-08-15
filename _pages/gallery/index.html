@@ -2,10 +2,25 @@
 layout: default
 title: gallery
 permalink: "/gallery/"
+images:
+  - image_path: /images/dress1.jpg
+    title: Dress
+  - image_path: /images/dress2.jpg
+    title: Dress
+  - image_path: /images/dress3.jpg
+    title: Dress
+ - image_path: /images/dress4.jpg
+    title: Dress
 ---
 <section id="content">
 <article>
 <p> lots of pictures here
+<ul class="photo-gallery">
+  {% for image in page.images %}
+    <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
+  {% endfor %}
+</ul>
+
 </p>
 </article>
 </section>
