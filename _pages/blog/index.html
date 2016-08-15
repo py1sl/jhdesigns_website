@@ -9,6 +9,7 @@ permalink: "/blog/"
 <ul>
   {% for post in site.posts %}
     <li><a href="/jhdesigns_website/{{ post.url }}">{{ post.title }}</a></li>
+    {{ post.excerpt }}
   {% endfor %}
 </ul>
 
