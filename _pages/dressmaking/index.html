@@ -2,6 +2,16 @@
 layout: dress
 title: Dressmaking and design
 permalink: "/dressmaking/"
+images:
+  - image_path: /jhdesigns_website/images/dress1.JPG
+    title: Dress1
+    link: /alterations/
+  - image_path: /jhdesigns_website/images/dress2.JPG
+    title: Dress2
+    link: /design/
+  - image_path: /jhdesigns_website/images/dress3.JPG
+    title: Dress3
+    link: /now/
 ---
 <section id="content">
 <article>
@@ -9,3 +19,11 @@ permalink: "/dressmaking/"
 </p>
 </article>
 </section>
+<ul class="photo-gallery">
+  {% for image in page.images %}
+    <li><a href="{{ image.link }}">
+         <img src="{{ image.image_path }}" alt="{{ image.title}}"/>
+        </a>
+    </li>
+  {% endfor %}
+</ul>
