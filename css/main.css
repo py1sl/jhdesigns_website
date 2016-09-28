@@ -238,3 +238,18 @@ height:auto;
 .photo-gallery li img {
 	width: 100%;
 }
+
+
+.link-gallery, .link-gallery li {
+	list-style: none;
+	padding: 0;
+}
+
+.link-gallery li {
+	display: inline-block;
+	width: 33%;
+}
+
+.link-gallery li img {
+	width: 100%;
+}
