@@ -43,7 +43,7 @@ overflow:auto;
 text-align:left;
 font-size:2em;
 
-font-family:'Advent Pro, Arial, Helvetica, sans-serif;
+font-family:'Advent Pro', Arial, Helvetica, sans-serif;
 background-color: #FFFFFF;
 color:black;
 margin:0;
@@ -55,7 +55,7 @@ padding:0;
 nav
 {
 font-size:1.5em;
-font-family: 'Advent Pro, Arial, Helvetica, sans-serif;
+font-family: 'Advent Pro', Arial, Helvetica, sans-serif;
 background-color:#FFFFFF;
 margin:0;
 padding-top:10px;
