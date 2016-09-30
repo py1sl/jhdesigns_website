@@ -189,42 +189,6 @@ margin-bottom:5px;
 
 
 
-#main_image
-{
-margin:0;
-margin-left:auto;
-margin-right:auto;
-}
-
-#main_image ul li
-{
-list-style-type:none;
-margin:0;
-padding:0;
-display:inline;
-}
-
-#main_image ul li:first-child 
-{
-
-}
-
-#main_image ul li img
-{
-overflow:hidden;
-height:0;
-width:0;
-}
-
-
-
-#main_image ul li:target img
-{
-width:auto;
-height:auto;
- 
-}
-
 .photo-gallery, .photo-gallery li {
 	list-style: none;
 	padding: 0;
