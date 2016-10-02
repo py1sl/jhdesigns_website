@@ -18,7 +18,6 @@ padding:0;
  
 a.active {
   font-weight: bold;
-  text-decoration:underline;
 }
  
  #container
@@ -162,7 +161,7 @@ color:#443266;
 
 #links a:hover
 {
-text-decoration:underline;
+
 color:blue;
 }
 
