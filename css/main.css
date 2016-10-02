@@ -18,6 +18,7 @@ padding:0;
  
 a.active {
   font-weight: bold;
+  text-decoration:underline;
 }
  
  #container
@@ -84,6 +85,7 @@ nav ul
 
 nav a
 {
+text-decoration:none;
 color:black;
 }
 
