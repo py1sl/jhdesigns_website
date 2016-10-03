@@ -51,6 +51,16 @@ padding:0;
 -webkit-border-radius:10px 10px 0 0;
 }
 
+#pageheader h1
+{
+font-size:2em;
+}
+
+#pageheader h2
+{
+font-size:1.5em;
+}
+
 nav
 {
 font-size:1.5em;
