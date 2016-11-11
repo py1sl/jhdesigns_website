@@ -227,3 +227,8 @@ margin-bottom:5px;
 .link-gallery li img {
 	width: 100%;
 }
+
+.blog_col {
+	display: inline-block;
+	width: 33%;
+}
