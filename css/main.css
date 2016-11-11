@@ -160,6 +160,19 @@ padding:
 }
 
 
+.image_block_wrapper 
+{
+width:100%;
+display:block;
+}
+
+.image_block_wrapper img
+{
+width:100%;
+height:auto;
+}
+
+
 #links a
 {
 text-align:center;
