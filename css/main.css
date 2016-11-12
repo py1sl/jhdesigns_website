@@ -245,3 +245,19 @@ margin-bottom:5px;
 	display: inline-block;
 	width: 33%;
 }
+
+#group_image
+{
+width:45%;
+display:inline-block;
+height:80%;
+vertical-align:top;
+}
+
+#aligned_text
+{
+width:50%;
+display:inline-block;
+height:80%;
+vertical-align:top;
+}
