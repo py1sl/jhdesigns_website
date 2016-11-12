@@ -229,12 +229,12 @@ margin-bottom:5px;
 
 .link-gallery, .link-gallery li {
 	list-style: none;
-	padding: 0;
+	padding: 2px;
 }
 
 .link-gallery li {
 	display: inline-block;
-	width: 23%;
+	width: 24%;
 }
 
 .link-gallery li img {
