@@ -53,12 +53,12 @@ padding:0;
 
 #pageheader h1
 {
-font-size:2em;
+font-size:4em;
 }
 
 #pageheader h2
 {
-font-size:1.5em;
+font-size:2.5em;
 }
 
 nav
@@ -229,7 +229,7 @@ margin-bottom:5px;
 
 .link-gallery, .link-gallery li {
 	list-style: none;
-	padding: 3px;
+	padding: 2px;
 }
 
 .link-gallery li {
@@ -256,7 +256,7 @@ vertical-align:top;
 
 #aligned_text
 {
-width:50%;
+width:53%;
 display:inline-block;
 height:80%;
 vertical-align:top;
