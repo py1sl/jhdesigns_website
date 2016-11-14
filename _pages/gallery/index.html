@@ -2,27 +2,21 @@
 layout: default
 title: gallery
 permalink: "/gallery/"
-images:
-  - image_path: /jhdesigns_website/images/dress1.JPG
-    title: Dress1
-  - image_path: /jhdesigns_website/images/dress2.JPG
-    title: Dress2
-  - image_path: /jhdesigns_website/images/dress3.JPG
-    title: Dress3
-  - image_path: /jhdesigns_website/images/dress4.JPG
-    title: Kindle cover 1
-  - image_path: /jhdesigns_website/images/kind1.JPG
-    title: kindle cover 2
----
+
+
+<script src="/css/lightbox-plus-jquery.js"></script>
+<link href="/css/lightbox.css" rel="stylesheet" />
+
 <section id="content">
 <article>
-<p> lots of pictures here
-<ul class="photo-gallery">
-  {% for image in page.images %}
-    <li><img src="{{ image.image_path }}" alt="{{ image.title}}" height="200" width="100"/></li>
-  {% endfor %}
-</ul>
+<p></p>
 
-</p>
+{% for image in site.data.gallery.images %}
+    <li>
+    <a href="/jhdesigns_website/images/{{ image.name }}" data-lightbox="JH Designs" title="{{ image.text }}" >
+  <img src="/jhdesigns_website/images/{{ image.thumb }}">
+  </a></li>
+{% endfor %}
+
 </article>
 </section>
