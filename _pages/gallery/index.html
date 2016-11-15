@@ -3,16 +3,21 @@ layout: default
 title: gallery
 permalink: "/gallery/"
 images:
-  - image_path: /jhdesigns_website/images/dress1.JPG
-    title: Dress1
-  - image_path: /jhdesigns_website/images/dress2.JPG
-    title: Dress2
-  - image_path: /jhdesigns_website/images/dress3.JPG
-    title: Dress3
-  - image_path: /jhdesigns_website/images/dress4.JPG
-    title: Kindle cover 1
-  - image_path: /jhdesigns_website/images/kind1.JPG
-    title: kindle cover 2
+  - image_path: /jhdesigns_website/images/Gallery01_web.jpg
+    image_thumb:/jhdesigns_website/images/Gallery01_thumb_150x150.jpg
+    title: image1
+  - image_path: /jhdesigns_website/images/Gallery02_web.jpg
+    image_thumb:/jhdesigns_website/images/Gallery02_thumb_150x150.jpg
+    title: image2
+  - image_path: /jhdesigns_website/images/Gallery03_web.jpg
+    image_thumb:/jhdesigns_website/images/Gallery03_thumb_150x150.jpg
+    title: image3
+  - image_path: /jhdesigns_website/images/Gallery04_web.jpg
+    image_thumb:/jhdesigns_website/images/Gallery04_thumb_150x150.jpg
+    title: image4
+  - image_path: /jhdesigns_website/images/Gallery05_web.jpg
+    image_thumb:/jhdesigns_website/images/Gallery05_thumb_150x150.jpg
+    title: image5
 ---
 
 
@@ -26,7 +31,7 @@ images:
 <ul class="photo-gallery">
   {% for image in page.images %}
     <li><a href = "{{ image.image_path }}" data-lightbox="example-1" >
-        <img src="{{ image.image_path }}" text="{{ image.title}}" /></a></li>
+        <img src="{{ image.image_thumb }}" text="{{ image.title}}" /></a></li>
   {% endfor %}
 </ul>
 
