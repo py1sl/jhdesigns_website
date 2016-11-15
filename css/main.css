@@ -214,12 +214,12 @@ margin-bottom:5px;
 
 .photo-gallery, .photo-gallery li {
 	list-style: none;
-	padding: 0;
+	padding: 2px;
 }
 
 .photo-gallery li {
 	display: inline-block;
-	width: 25%;
+	width: 24%;
 }
 
 .photo-gallery li img {
