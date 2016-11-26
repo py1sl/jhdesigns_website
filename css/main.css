@@ -250,7 +250,7 @@ width:auto;
 display:inline-block;
 height:80%;
 vertical-align:top;
-float:left
+
 }
 
 #aligned_text
@@ -259,4 +259,5 @@ width:53%;
 display:inline-block;
 height:80%;
 vertical-align:top;
+margin-left: 2cm;
 }
