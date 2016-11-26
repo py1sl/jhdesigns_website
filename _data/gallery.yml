@@ -1,16 +1,79 @@
 images:
- - name: Gallery21_web.jpg
-   thumb: Gallery21_thumb_175x175.jpg
-   text: image 21
- - name: Gallery19_web.jpg
-   thumb: Gallery19_thumb_175x175.jpg
-   text: image 19
- - name: Gallery24_web.jpg
-   thumb: Gallery24_thumb_175x175.jpg
-   text: image 24
- - name: Gallery25_web.jpg
-   thumb: Gallery25_thumb_175x175.jpg
-   text: image 25
- - name: Gallery26_web.jpg
-   thumb: Gallery26_thumb_175x175.jpg
-   text: image 26
+  - image_path: /jhdesigns_website/images/Gallery01_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery01_thumb_150x150.jpg
+    title: image1
+  - image_path: /jhdesigns_website/images/Gallery02_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery02_thumb_150x150.jpg
+    title: image2
+  - image_path: /jhdesigns_website/images/Gallery03_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery03_thumb_150x150.jpg
+    title: image3
+  - image_path: /jhdesigns_website/images/Gallery04_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery04_thum_150x150.jpg
+    title: image4
+  - image_path: /jhdesigns_website/images/Gallery05_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery05_thumb_150x150.jpg
+    title: image5
+  - image_path: /jhdesigns_website/images/Gallery06_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery06_thumb_150x150.jpg
+    title: image6
+  - image_path: /jhdesigns_website/images/Gallery07_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery07_thumb_150x150.jpg
+    title: image7
+  - image_path: /jhdesigns_website/images/Gallery08_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery08_thumb_150x150.jpg
+    title: image8
+  - image_path: /jhdesigns_website/images/Gallery09_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery09_thumb_150x150.jpg
+    title: image9
+  - image_path: /jhdesigns_website/images/Gallery10_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery10_thumb_150x150.jpg
+    title: image10
+  - image_path: /jhdesigns_website/images/Gallery11_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery11_thumb_150x150.jpg
+    title: image11
+  - image_path: /jhdesigns_website/images/Gallery12_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery12_thumb_150x150.jpg
+    title: image12
+  - image_path: /jhdesigns_website/images/Gallery13_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery13_thumb_150x150.jpg
+    title: image13
+  - image_path: /jhdesigns_website/images/Gallery14_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery14_thumb_150x150.jpg
+    title: image14
+  - image_path: /jhdesigns_website/images/Gallery15_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery15_thumb_150x150.jpg
+    title: image15
+  - image_path: /jhdesigns_website/images/Gallery16_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery16_thumb_150x150.jpg
+    title: image16
+  - image_path: /jhdesigns_website/images/Gallery17_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery17_thumb_150x150.jpg
+    title: image17
+  - image_path: /jhdesigns_website/images/Gallery18_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery18_thumb_150x150.jpg
+    title: image18
+  - image_path: /jhdesigns_website/images/Gallery19_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery19_thumb_150x150.jpg
+    title: image19
+  - image_path: /jhdesigns_website/images/Gallery20_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery20_thumb_150x150.jpg
+    title: image20
+  - image_path: /jhdesigns_website/images/Gallery21_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery21_thumb_150x150.jpg
+    title: image21
+  - image_path: /jhdesigns_website/images/Gallery2_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery22_thumb_150x150.jpg
+    title: image22
+  - image_path: /jhdesigns_website/images/Gallery023_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery23_thumb_150x150.jpg
+    title: image23
+  - image_path: /jhdesigns_website/images/Gallery024_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery24_thumb_150x150.jpg
+    title: image24
+  - image_path: /jhdesigns_website/images/Gallery25_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery25_thumb_150x150.jpg
+    title: image25
+  - image_path: /jhdesigns_website/images/Gallery26_web.jpg
+    image_thumb: /jhdesigns_website/images/Gallery26_thumb_150x150.jpg
+    title: image26
