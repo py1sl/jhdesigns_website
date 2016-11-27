@@ -247,9 +247,9 @@ font-family:'Italiana',Arial, Helvetica, sans-serif;
 
 #group_image
 {
-width:5%;
+width:auto;
 display:inline-block;
-height:auto;
+height:80%;
 vertical-align:top;
 float: left;
 
@@ -257,7 +257,7 @@ float: left;
 
 #aligned_text
 {
-width:auto;
+width:50%;
 display:inline-block;
 height:auto;
 vertical-align:top;
