@@ -208,6 +208,7 @@ margin-top:15px;
 margin-bottom:5px;
 -moz-border-radius:10px;
 -webkit-border-radius:10px;
+font-family:'Italiana',Arial, Helvetica, sans-serif;
 }
 
 
@@ -255,7 +256,7 @@ vertical-align:top;
 
 #aligned_text
 {
-width:53%;
+width:auto;
 display:inline-block;
 height:80%;
 vertical-align:top;
