@@ -264,6 +264,11 @@ vertical-align:top;
 margin-left: 3cm;
 }
 
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
 hr
 {
 border: 1px solid #D3D3D3;
