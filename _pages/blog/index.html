@@ -14,7 +14,7 @@ permalink: "/blog/"
         <img src="/images/nothumb.jpg" style="height: 280px" align="left" />
         {% endif %}</p>
         <p>&nbsp;</p>
-    <p>{{ post.excerpt }} </p>
+    <p>{{ post.content | strip_html | truncatewords:20  }} </p>
   {% endfor %}
 
   <hr/>
