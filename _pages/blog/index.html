@@ -34,7 +34,7 @@ Welcome to my blog on sewing, style, sustainability and escaping to the garden
         <img src="/images/nothumb.jpg" style="height: 280px" align="left" />
         {% endif %}</p>
         <p>&nbsp;</p>
-    <p>{{ post.excerpt }} </p>
+    <p>{{  post.content | strip_html | truncatewords:30  }} </p>
    </div>
   {% endfor %}
 
