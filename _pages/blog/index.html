@@ -10,7 +10,7 @@ Welcome to my blog on sewing, style, sustainability and escaping to the garden
 <br>
 </p>
 
-  {% for post in site.posts limit:1 %}
+  {% for post in site.posts limit:4 %}
     <a href="/jhdesigns_website/{{ post.url }}"><h2>{{ post.title }}</h2></a>
     <hr/>
     <p> {% if post.thumbnail %}
@@ -20,11 +20,12 @@ Welcome to my blog on sewing, style, sustainability and escaping to the garden
         {% endif %}</p>
         <p>&nbsp;</p>
     <p>{{ post.content | strip_html | truncatewords:30  }} </p>
+     <hr/>
   {% endfor %}
 
-  <hr/>
 
-  {% for post in site.posts offset:1 %}
+
+  {% for post in site.posts offset:4 %}
     <div class="blog_col">
     <a href="/jhdesigns_website/{{ post.url }}"><h2>{{ post.title }}</h2></a>
         <hr/>
