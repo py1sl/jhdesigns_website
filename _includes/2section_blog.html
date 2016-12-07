@@ -1,0 +1,33 @@
+
+
+
+  {% for post in site.posts limit:1 %}
+    <a href="/jhdesigns_website/{{ post.url }}"><h2>{{ post.title }}</h2></a>
+    <hr/>
+    <p> {% if post.thumbnail %}
+        <img src="{{ post.thumbnail }}" style="height: 280px" align="left" />
+        {% else %}
+        <img src="/images/nothumb.jpg" style="height: 280px" align="left" />
+        {% endif %}</p>
+        <p>&nbsp;</p>
+    <p>{{ post.content | strip_html | truncatewords:50  }} </p>
+     <hr/>
+  {% endfor %}
+
+
+
+  {% for post in site.posts offset:1 %}
+    <div class="blog_col">
+    <a href="/jhdesigns_website/{{ post.url }}"><h2>{{ post.title }}</h2></a>
+        <hr/>
+    <p> {% if post.thumbnail %}
+        <img src="{{ post.thumbnail }}" style="height: 280px" align="left" />
+        {% else %}
+        <img src="/images/nothumb.jpg" style="height: 280px" align="left" />
+        {% endif %}</p>
+        <p>&nbsp;</p>
+    <p>{{  post.content | strip_html | truncatewords:50  }} </p>
+   </div>
+  {% endfor %}
+
+
