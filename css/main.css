@@ -264,6 +264,24 @@ vertical-align:top;
 margin-left: 3cm;
 }
 
+#blog_thumb
+{
+width:35%;
+display:inline-block;
+vertical-align:top;
+float: left;
+
+}
+
+#blog_sample_text
+{
+width:50%;
+display:inline-block;
+height:300px;
+vertical-align:top;
+margin-left: 3cm;
+}
+
 #centred_text
 {
 width:75%;

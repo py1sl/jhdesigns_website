@@ -13,7 +13,7 @@ Welcome to my blog on sewing, style, sustainability and escaping to the garden
   {% for post in site.posts %}
     <a href="/jhdesigns_website/{{ post.url }}"><h2>{{ post.title }}</h2></a>
     <hr/>
-    <div id="group_image">
+    <div id="blog_thumb">
     <p> {% if post.thumbnail %}
         <img src="{{ post.thumbnail }}"  />
         {% else %}
@@ -21,7 +21,7 @@ Welcome to my blog on sewing, style, sustainability and escaping to the garden
         {% endif %}</p>
     </div>
         <p>&nbsp;</p>
-    <div id="aligned_text">
+    <div id="blog_sample_text">
     <p>{{ post.content | strip_html | truncatewords:50  }} </p>
     </div>
      <hr/>
