@@ -23,6 +23,9 @@ Welcome to my blog on sewing, style, sustainability and escaping to the garden
         <p>&nbsp;</p>
     <div id="blog_sample_text">
     <p>{{ post.content | strip_html | truncatewords:50  }} </p>
+        <p>
+	<a  href="/jhdesigns_website/{{ post.url }}">Read more...</a>
+	</p>
     </div>
      <hr/>
   {% endfor %}
